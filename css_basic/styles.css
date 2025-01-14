@@ -10,3 +10,13 @@ main {
     flex-direction: row;
     flex: auto;
 }
+
+main article {
+    overflow-y: auto;
+    flex: 2;
+}
+
+main aside {
+    flex: 1;
+    overflow-y: auto;
+}
