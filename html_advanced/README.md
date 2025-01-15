@@ -1,2 +1,2 @@
 The HTML adavanced project is a task that focuses on the HTML structure of a webpage that would later be designed using CSS
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/fawzo1/Desktop/Screenshot/Screenshot%202025-01-15%20at%2012.25.37%E2%80%AFPM.png?version%3D1736940374060)
+![HTML structure](Screenshot.png)
