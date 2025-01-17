@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;                       
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+/* Background */
+.banner {
+    background-image: url(./Assets/background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 1095px;
+    margin-top: -95px;
+    padding-top: 109px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Beginning of header */
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px 0px 200px;
+    height: 95px;
+    
+}
+
+.logo {
+    margin: 1rem 0rem 0 5rem;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 18rem;
+    margin-right: 15px; 
+    padding: 2px;  
+}
+
+.links ul a{
+    color: #fff;
+}
+
+/* End of header */
+/* Beginning of banner1 */
+.banner-content1{
+    text-align: center;
+    height: 55%;
+    align-content: center;
+    margin: 0 250px 0 250px;
+}
+
+.title1{
+    font-size: 120px;
+    color: #fff;
+}
+
+.banner-content1 p{
+    text-align: center;
+    word-spacing: 55px;
+    color: #fff;
+}
+
+.btn1{
+    margin-top: 25px;
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    color: #fff;
+    background: #C271FF;
+    border: 1px solid #c271ff;
+    box-shadow: 0px 2px 20px 0px #00000080;
+}
+
+/* End of banner1 */
+/* Beginning of banner2 */
+.banner-content2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 250px 0 250px;
+    height: 40%;
+}
+
+.title2{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    color: #fff;
+}
+.title2 span{
+    color: #C271FF;
+}
+.proProfile{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.proName{
+    text-align: center;
+    color: #fff;
+    font-style: bold;
+}
+.proInfo{
+    width: 150px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 5px;
+    color: #fff;
+    font-weight: 0.5;
+}
+
+/* End of banner2 */
+/* Beginning of quote */
+.quote{
+    background-color: #C271FF;
+    display: flex;
+    height: 392px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.qoute-content{
+    display: flex;
+    gap: 30px;
+}
+
+.quote-persona{
+    width: 730px;
+    line-height: 33px;
+}
+
+.blockquote{
+    font-size: 22px;
+    color: #fff;
+}
+
+.author{
+    font-size: 22px;
+    margin-top: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.authorJob{
+    font-size: 22px;
+    font-style: italic;
+    color: #fff;
+}
+
+/* End of quote */
+/* Beginning of tutorials */
+.tutorials{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 502px;
+    margin: 60px 170px 0px 170px;
+}
+
+.title3{
+    text-align: center;
+    padding-bottom: 50px;
+    color: #071629;
+}
+.title3 span{
+    color: #C271FF;
+    font-size: 32px;
+}
+.tutorials-content{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+    justify-content: center;
+}
+.tutorial1, .tutorial2, .tutorial3, .tutorial4{
+    justify-content: center;
+    width: 255px;
+    height: 335px;
+}
+.tutorial-img{
+    width: 255px;
+    height: 154px;
+    position: relative;
+}
+.tutorial-title{
+    margin: 15px 0 10px 0;
+    font-size: 16px;
+    color: #071629;
+}
+.tutorial-info{
+    word-wrap: break-word;
+    line-height: 25px;
+    color: rgba(7, 21, 39, 0.5);
+}
+.reviews{
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.review-img{
+    width: 30px;
+    height: 30px;
+}
+.review-name{
+    font-size: 14px;
+    margin-top: 8px;
+    color: #C271FF;
+}
+
+.rating{
+    display: flex;
+    margin-top: 10px;
+}
+.time{
+    color: #C271FF;
+    margin: 0 0 0 105px;
+    font-size: 14px;
+}
+
+/* End of tutorials */
+/* Beginning of membership */
+.membership{
+    display: flex;
+    flex-direction: column;
+    height: 502px;
+    justify-content: center;
+    align-items: center;
+    background-color: #071629
+}
+
+.title4{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 32px;
+    color: #fff;
+}
+.title4 span{
+    color: #C271FF;
+}
+.members{
+    display: flex;
+    margin: 0px 170px 0 170px; 
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.member1, .member2, .member3, .member4{
+    width: 257px;
+    height: 153px;
+    justify-items: center;
+}
+
+.member-name{
+    margin:10px 0 15px 0 ;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+}
+.member-info{
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn2{
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    border: 1px #C271FF;
+    border-radius: 22px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+/* End of membership */
+/* Beginning of FAQ */
+.faq{
+    display: flex;
+    flex-direction: column;
+    margin: 0 180px 0 180px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title5{
+    font-size: 60px;
+    margin-bottom: 70px;
+    margin-top: -10px;
+}
+.faq-content{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+
+}
+.faq-content1, .faq-content2{
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.faq1, .faq2, .faq3, .faq4{
+    width: 350px;
+    height: 242px;
+}
+
+.faq-title{
+    font-size: 16px;
+    color: #071629;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.faq-info{
+    font-size: 14px;
+    color: rgba(7, 21, 39, 0.5);
+}
+
+/* End of FAQ */
+/* Beginning of footer */
+footer{
+    display: flex;
+    background-color: #071629;
+    height: 249px;
+    justify-content: center;
+}
+.footer-main{
+    width: 70%;
+    margin-top: 50px;   
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 7rem;
+}
+.footer-links img{
+margin-left: 15px;
+}
